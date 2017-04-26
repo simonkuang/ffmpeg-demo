@@ -5,9 +5,9 @@ cc_library(
   srcs = [
     "lib/libavcodec.57.dylib",
   ],
-  hdrs = [
-    "include/libavcodec/avcodec.h",
-  ],
+  hdrs = glob([
+    "include/libavcodec/*.h",
+  ]),
   include_prefix = "include/",
   visibility = [ "//visibility:public" ],
 )
@@ -17,9 +17,9 @@ cc_library(
   srcs = [
     "lib/libavfilter.6.dylib",
   ],
-  hdrs = [
-    "include/libavfilter/avfilter.h",
-  ],
+  hdrs = glob([
+    "include/libavfilter/*.h",
+  ]),
   include_prefix = "include/",
   visibility = [ "//visibility:public" ],
 )
@@ -29,9 +29,9 @@ cc_library(
   srcs = [
     "lib/libavformat.57.dylib",
   ],
-  hdrs = [
-    "include/libavformat/avformat.h",
-  ],
+  hdrs = glob([
+    "include/libavformat/*.h",
+  ]),
   include_prefix = "include/",
   visibility = [ "//visibility:public" ],
 )
@@ -41,9 +41,9 @@ cc_library(
   srcs = [
     "lib/libavutil.55.dylib",
   ],
-  hdrs = [
-    "include/libavutil/avutil.h",
-  ],
+  hdrs = glob([
+    "include/libavutil/*.h",
+  ]),
   include_prefix = "include/",
   visibility = [ "//visibility:public" ],
 )
@@ -53,9 +53,9 @@ cc_library(
   srcs = [
     "lib/libswresample.2.dylib",
   ],
-  hdrs = [
-    "include/libswresample/swresample.h",
-  ],
+  hdrs = glob([
+    "include/libswresample/*.h",
+  ]),
   include_prefix = "include/",
   visibility = [ "//visibility:public" ],
 )
@@ -65,9 +65,9 @@ cc_library(
   srcs = [
     "lib/libavresample.3.dylib",
   ],
-  hdrs = [
-    "include/libavresample/avresample.h",
-  ],
+  hdrs = glob([
+    "include/libavresample/*.h",
+  ]),
   include_prefix = "include/",
   visibility = [ "//visibility:public" ],
 )
@@ -77,9 +77,9 @@ cc_library(
   srcs = [
     "lib/libavdevice.57.dylib",
   ],
-  hdrs = [
-    "include/libavdevice/avdevice.h",
-  ],
+  hdrs = glob([
+    "include/libavdevice/*.h",
+  ]),
   include_prefix = "include/",
   visibility = [ "//visibility:public" ],
 )
@@ -89,9 +89,9 @@ cc_library(
   srcs = [
     "lib/libswscale.4.dylib",
   ],
-  hdrs = [
-    "include/libswscale/swscale.h",
-  ],
+  hdrs = glob([
+    "include/libswscale/*.h",
+  ]),
   include_prefix = "include/",
   visibility = [ "//visibility:public" ],
 )
