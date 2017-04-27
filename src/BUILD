@@ -1,7 +1,8 @@
 cc_binary(
   name = "audio_player",
   srcs = [
-    "audio_player.cc",
+    "audio_player/audio_player.cc",
+    "common.h",
   ],
   deps = [
     "//third_party/ffmpeg:avcodec",
