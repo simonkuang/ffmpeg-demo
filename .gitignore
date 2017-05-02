@@ -33,3 +33,7 @@
 
 # for bazel output
 /bazel-*
+
+# vim swap file
+*.swp
+*.swo

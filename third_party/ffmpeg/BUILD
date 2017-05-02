@@ -7,7 +7,7 @@ cc_library(
     "include/libavcodec/avcodec.h",
   ]),
   deps = [
-    "//third_party/ffmpeg-3.2.4:avcodec",
+    "//third_party/ffmpeg-3.3:avcodec",
   ],
   include_prefix = "include/",
   visibility = [ "//visibility:public" ],
@@ -20,7 +20,7 @@ cc_library(
     "include/libavfilter/avfilter.h",
   ]),
   deps = [
-    "//third_party/ffmpeg-3.2.4:avfilter",
+    "//third_party/ffmpeg-3.3:avfilter",
   ],
   include_prefix = "include/",
   visibility = [ "//visibility:public" ],
@@ -33,7 +33,7 @@ cc_library(
     "include/libavformat/avformat.h",
   ]),
   deps = [
-    "//third_party/ffmpeg-3.2.4:avformat",
+    "//third_party/ffmpeg-3.3:avformat",
   ],
   include_prefix = "include/",
   visibility = [ "//visibility:public" ],
@@ -46,7 +46,7 @@ cc_library(
     "include/libavutil/avutil.h",
   ]),
   deps = [
-    "//third_party/ffmpeg-3.2.4:avutil",
+    "//third_party/ffmpeg-3.3:avutil",
   ],
   include_prefix = "include/",
   visibility = [ "//visibility:public" ],
@@ -59,7 +59,7 @@ cc_library(
     "include/libswresample/swresample.h",
   ]),
   deps = [
-    "//third_party/ffmpeg-3.2.4:swresample",
+    "//third_party/ffmpeg-3.3:swresample",
   ],
   include_prefix = "include/",
   visibility = [ "//visibility:public" ],
@@ -72,7 +72,7 @@ cc_library(
     "include/libavresample/avresample.h",
   ]),
   deps = [
-    "//third_party/ffmpeg-3.2.4:avresample",
+    "//third_party/ffmpeg-3.3:avresample",
   ],
   include_prefix = "include/",
   visibility = [ "//visibility:public" ],
@@ -85,7 +85,7 @@ cc_library(
     "include/libavdevice/avdevice.h",
   ]),
   deps = [
-    "//third_party/ffmpeg-3.2.4:avdevice",
+    "//third_party/ffmpeg-3.3:avdevice",
   ],
   include_prefix = "include/",
   visibility = [ "//visibility:public" ],
@@ -98,7 +98,7 @@ cc_library(
     "libswscale/swscale.h",
   ]),
   deps = [
-    "//third_party/ffmpeg-3.2.4:swscale",
+    "//third_party/ffmpeg-3.3:swscale",
   ],
   include_prefix = "include/",
   visibility = [ "//visibility:public" ],
